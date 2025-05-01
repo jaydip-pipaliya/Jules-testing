@@ -1,1 +1,9 @@
-Hello
+Here is a list of basic Git commands:
+
+- `git clone [repository URL]`: Copies a remote repository to your local machine.
+- `git add [file(s)]`: Stages changes in the specified file(s) for the next commit. Use `git add .` to stage all changes.
+- `git commit -m "[commit message]"`: Records the staged changes to the repository's history with a descriptive message.
+- `git push`: Uploads your local commits to the remote repository.
+- `git pull`: Fetches changes from the remote repository and merges them into your current local branch.
+- `git branch [branch name]`: Creates a new branch. If no name is provided, it lists all local branches.
+- `git checkout [branch name]`: Switches to the specified branch. Use `git checkout -b [new branch name]` to create and switch to a new branch.
