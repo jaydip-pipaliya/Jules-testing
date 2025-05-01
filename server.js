@@ -13,6 +13,8 @@ app.get('/', (req, res) => {
 });
 
 // Start the server and make it listen on the specified port
-app.listen(port, () => {
-  console.log(`Server listening at http://localhost:${port}`);
-});
+// app.listen(port, () => {
+//   console.log(`Server listening at http://localhost:${port}`);
+// });
+
+module.exports = app; // Export the app for testing
